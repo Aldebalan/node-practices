@@ -1,5 +1,5 @@
 {
-  "name": "project-ex02",
+  "name": "helloweb-ex01",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "douzone-bipa-math": "^1.0.1"
+    "connect-route": "^0.1.5"
   }
 }
