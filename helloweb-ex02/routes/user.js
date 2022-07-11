@@ -9,12 +9,6 @@ router.route('').get(function(req, res) {
     });
 });
 
-router.route('/:no').get(function(req, res) {
-    res.render('user/info', {
-        no: req.params.no || 0
-    });
-});
-
 router.route('/join').get(function(req, res) {
     res.render('user/join');
 });
@@ -22,6 +16,12 @@ router.route('/join').get(function(req, res) {
 router.route('/join').post(function(req, res) {
     console.log(req.body);
     res.redirect('/');
+});
+
+router.route('/:no').get(function(req, res) {
+    res.render('user/info', {
+        no: req.params.no || 0
+    });
 });
 
 router.route('/api').get(function(req, res) {
