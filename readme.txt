@@ -22,9 +22,15 @@ Node Practices
         npm i -g gulp    [global install, general Dependency]
         npx gulp --version
     4) 패키지 삭제 예제
-        
+        npm  un ejs [local install 삭제]
+        npm  un -g gulp [global install 삭제]
+        npx gulp  --version (삭제 테스트)
 
 4. Node(JavaScript) Project 생성
+    1) 프로젝트 생성(mkdir)
+    2) 프로젝트 이동(cd)
+    3) 프로젝트 초기화: 프로젝트 메니페스트(manifest) 파일인 package.json를 생성
+        $[project-ex02] npm init -y
 
 5. Module 
 
