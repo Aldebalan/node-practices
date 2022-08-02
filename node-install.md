@@ -300,7 +300,7 @@
 
     ```sh
     # node 
-    export PATH=$PATH:/usr/local/kickscar/node/bin
+    export PATH=$PATH:/usr/local/douzone/node/bin
     ```
 
 5.	설정 적용 및 설치 확인
